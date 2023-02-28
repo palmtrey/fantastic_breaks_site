@@ -58,16 +58,10 @@
                 The <i>Fantastic Breaks</i> dataset can be downloaded <a href="https://example.com" target="_blank">here</a>.
             </p>
 
-            <div id="model_viewers">
-                <!-- <model-viewer src="cube.gltf" auto-rotate alt="cube"> </model-viewer> -->
-                <!-- <model-viewer src="http://raw.githubusercontent.com/german-alvarez-dev/workshop-webvr-aframe/master/ship/scene_ship.gltf" auto-rotate alt="boat"> -->
-                <model-viewer alt="Object" src="models/ball_ori.glb" style="
-                                width: 100%;
-                                height: 250px;
-                                background-color: #ffffff;
-                            " exposure=".8" camera-orbit="90deg 90deg 105%" auto-rotate="" camera-controls="" ar-status="not-presenting">
-                </model-viewer>
-
+            <div id="model-viewers">
+                <model-viewer class="viewers" src="https://raw.githubusercontent.com/palmtrey/fantastic_breaks_site/main/models/cube.glb" camera-orbit="90deg 90deg 105%" auto-rotate="" camera-controls="" ar-status="not-presenting" alt="cube"> </model-viewer>
+                <model-viewer class="viewers" src="https://raw.githubusercontent.com/palmtrey/fantastic_breaks_site/main/models/ball_ori.glb" camera-orbit="90deg 90deg 105%" auto-rotate="" camera-controls="" ar-status="not-presenting" alt="cube"> </model-viewer>
+                
             </div>
             
         </div>
