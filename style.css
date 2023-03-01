@@ -3,7 +3,7 @@ body{
 }
 .header{
     text-align: center;
-    background-color: #e6e6e6;
+    background-color: #e9ecef;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-top:3rem;
     padding-bottom:3rem;
@@ -61,7 +61,7 @@ body{
 hr{
     height:0;
     border:0;
-    border-top:1px solid;
+    border-top:2px solid;
     box-sizing: content-box;
 }
 
@@ -93,7 +93,7 @@ hr{
     vertical-align: middle;
 }
 
-#dataset-body{
+.dataset-body{
     text-align: left;
 }
 
@@ -106,4 +106,23 @@ hr{
     max-width: 16.66666%;
     padding-left:1rem;
     padding-right:1rem;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.citations{
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:15px;
+    padding-right:15px;
+    max-width:1000px;
+    vertical-align: middle;
+}
+
+#citations-body{
+    text-align: left;
+}
+
+.citation{
+    color: #e83e8c;
 }
