@@ -59,11 +59,12 @@ body{
     text-align: center;
     font-family: "Helvetica", "sans-serif";
     background-color: #ffffff;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left:auto;
+    margin-right:auto;
     margin-top: 5rem;
     margin-bottom: 5rem;
     padding-top: 2rem;
+    max-width: 1200px;
 }
 
 hr{
@@ -135,12 +136,13 @@ hr{
     color: #e83e8c;
 }
 
-.content{
-    max-width:1200px;
-}
 
 .icon{
     height: 1.5rem;
     padding-left: 1rem;
     vertical-align: middle;
+}
+
+.link{
+    text-decoration: none;
 }
