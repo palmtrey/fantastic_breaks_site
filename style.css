@@ -4,7 +4,7 @@ body{
 .header{
     text-align: center;
     background-color: #e9ecef;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Helvetica", "sans-serif";
     padding-top:3rem;
     padding-bottom:3rem;
 }
@@ -45,28 +45,33 @@ body{
 }
 
 #banner{
-    padding-top:1rem;
-    width:50rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 2rem;
+    max-height: 1000px;
+    max-width: 100%;
 
 }
 
 .body{
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Helvetica", "sans-serif";
+    background-color: #d4d3d3;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1rem;
 }
 
 hr{
     height:0;
     border:0;
-    border-top:2px solid;
+    border-top:0.5px solid;
     box-sizing: content-box;
 }
 
 .body-title{
-    padding-top:1rem;
+    padding-bottom:1rem;
     font-weight: normal;
     font-size:1.7rem;
 }
@@ -76,7 +81,7 @@ hr{
     margin-right:auto;
     padding-left:15px;
     padding-right:15px;
-    max-width:1000px;
+    /* max-width:1500px; */
     vertical-align: middle;
 }
 
@@ -89,7 +94,7 @@ hr{
     margin-right:auto;
     padding-left:15px;
     padding-right:15px;
-    max-width:1000px;
+    /* max-width:1000px; */
     vertical-align: middle;
 }
 
@@ -115,7 +120,7 @@ hr{
     margin-right:auto;
     padding-left:15px;
     padding-right:15px;
-    max-width:1000px;
+    /* max-width:1000px; */
     vertical-align: middle;
 }
 
@@ -125,4 +130,14 @@ hr{
 
 .citation{
     color: #e83e8c;
+}
+
+.content{
+    max-width:1200px;
+}
+
+.icon{
+    height: 1.5rem;
+    padding-left: 1rem;
+    vertical-align: middle;
 }
