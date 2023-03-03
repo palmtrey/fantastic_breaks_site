@@ -1,5 +1,6 @@
 body{
     margin:0;
+    background-color:  #d4d3d3;
 }
 .header{
     text-align: center;
@@ -57,10 +58,12 @@ body{
 .body{
     text-align: center;
     font-family: "Helvetica", "sans-serif";
-    background-color: #d4d3d3;
+    background-color: #ffffff;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding-top: 2rem;
 }
 
 hr{
