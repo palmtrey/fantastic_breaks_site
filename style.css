@@ -68,9 +68,10 @@ body{
     background-color: #ffffff;
     margin-left:auto;
     margin-right:auto;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
+    /* padding-top: 2rem; */
+    border-radius: 15px;
     margin-bottom: 5rem;
-    padding-top: 2rem;
     max-width: 1200px;
 }
 
@@ -142,7 +143,6 @@ hr{
 .citation{
     color: #e83e8c;
 }
-
 
 .icon{
     height: 1.5rem;
