@@ -4,7 +4,7 @@ body{
 }
 .header{
     text-align: center;
-    background-color: #e9ecef;
+    background-color: #ffffff;
     font-family: "Helvetica", "sans-serif";
     padding-top:3rem;
     padding-bottom:3rem;
@@ -20,13 +20,19 @@ body{
 #title{
     padding-top:1rem;
     font-weight: normal;
-    font-size: 2rem;
+    font-size: 2.5rem;
+}
+
+#subtitle{
+    padding-top:0.5rem;
+    font-weight: normal;
+    font-size: 1rem;
 }
 
 #conference{
     padding-top:0.5rem;
     font-weight: normal;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 #authors{
@@ -41,8 +47,9 @@ body{
 }
 
 #links{
-    padding-top:0.5rem;
+    padding-top:1rem;
     font-size: 1.5rem;
+    margin-top: 0.5rem;
 }
 
 #banner{
@@ -61,7 +68,7 @@ body{
     background-color: #ffffff;
     margin-left:auto;
     margin-right:auto;
-    margin-top: 5rem;
+    margin-top: 2rem;
     margin-bottom: 5rem;
     padding-top: 2rem;
     max-width: 1200px;
@@ -139,10 +146,22 @@ hr{
 
 .icon{
     height: 1.5rem;
-    padding-left: 1rem;
+    
+    padding-bottom:0.25rem;
     vertical-align: middle;
 }
 
 .link{
     text-decoration: none;
+    
+}
+
+.button{
+    margin: 10px;
+    font-size: 1.25rem;
+    background-color: #646464;
+    border: 2px solid #646464;
+    border-radius: 1.5rem;
+    padding: .5rem;
+    color: #ffffff;
 }
