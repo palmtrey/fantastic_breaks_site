@@ -90,8 +90,8 @@ hr{
 .abstract{
     margin-left:auto;
     margin-right:auto;
-    padding-left:15px;
-    padding-right:15px;
+    padding-left:75px;
+    padding-right:75px;
     /* max-width:1500px; */
     vertical-align: middle;
 }
@@ -103,14 +103,14 @@ hr{
 .dataset{
     margin-left:auto;
     margin-right:auto;
-    padding-left:15px;
-    padding-right:15px;
+    padding-left:75px;
+    padding-right:75px;
     /* max-width:1000px; */
     vertical-align: middle;
 }
 
 .dataset-body{
-    text-align: left;
+    text-align: center;
 }
 
 #model-viewers{
@@ -129,8 +129,8 @@ hr{
 .citations{
     margin-left:auto;
     margin-right:auto;
-    padding-left:15px;
-    padding-right:15px;
+    padding-left:75px;
+    padding-right:75px;
     /* max-width:1000px; */
     vertical-align: middle;
 }
